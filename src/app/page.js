@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       {/* Hero Section image on the right */}
       <div
-        className="flex px-[200px] justify-between items-center py-[100px]"
+        className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]"
         style={{
           backgroundImage: "url(/assets/bg.png)",
           backgroundSize: "cover",
@@ -15,7 +15,7 @@ export default function Home() {
           Height: "400px",
         }}
       >
-        <div className="basis-[48%] max-w-[1200px]">
+        <div className="2xl:basis-[48%] max-w-[1200px]">
           <h1 className="text-white font-bold text-[70px] leading-[70px]">
             ZedCar Connect: A Car Market Place
           </h1>
@@ -46,12 +46,12 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className=" max-w-[1200px]">
+        <div className="max-w-[1200px] mt-[20px] 2xl:mt-[0px]">
           <Image src="/assets/1.png" alt="bg" width={550} height={550} />
         </div>
       </div>
 
-      <div className="max-w-[1200px] mx-auto py-[200px]">
+      <div className="max-w-[1200px] mx-auto py-[200px] px-[50px]">
         <div className="flex justify-center items-center flex-col text-center">
           <h1 className="font-bold text-[50px] leading-[70px]">
             Explore Our App Features
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* image on the right */}
-      <div className="flex px-[200px] justify-between items-center py-[100px] bg-bg">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
         <div className="basis-[48%] max-w-[1200px]">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Simplified Process
@@ -90,7 +90,7 @@ export default function Home() {
       </div>
 
       {/* image on the left */}
-      <div className="flex px-[200px] justify-between items-center py-[100px] bg-white">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
         <div className=" max-w-[1200px]">
           <Image src="/assets/13.png" alt="bg" width={550} height={550} />
         </div>
@@ -112,7 +112,7 @@ export default function Home() {
       </div>
 
       {/* image on the right */}
-      <div className="flex px-[200px] justify-between items-center py-[100px] bg-bg">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
         <div className="basis-[48%] max-w-[1200px]">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Intuitive and User-Friendly
@@ -134,7 +134,7 @@ export default function Home() {
       </div>
 
       {/* image on the left */}
-      <div className="flex px-[200px] justify-between items-center py-[100px] bg-white">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
         <div className=" max-w-[1200px]">
           <Image src="/assets/15.png" alt="bg" width={550} height={550} />
         </div>
@@ -154,7 +154,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-bg">
+      <div className="bg-bg px-[30px]">
         <div className="max-w-[1200px] mx-auto py-[200px]">
           <div className="flex justify-center items-center flex-col text-center">
             <h1 className="font-bold text-[50px] leading-[70px]">
@@ -182,7 +182,7 @@ export default function Home() {
       </div>
 
       {/* image on the right */}
-      <div className="flex px-[200px] justify-between items-center py-[200px] bg-primary relative overflow-hidden">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-primary relative overflow-hidden">
         <div className="basis-[48%] max-w-[1200px]">
           <h1 className="font-bold text-[50px] leading-[50px] text-red">
             Discover the Power of ZedCar Connect
@@ -225,20 +225,20 @@ export default function Home() {
             </button>
           </a>
         </div>
-        <div className="max-w-[1200px] absolute top-[-40px] bottom-0 right-[50px]">
+        <div className="max-w-[1200px] absolute top-[-40px] bottom-0 right-[50px] hidden 2xl:block">
           <Image src="/assets/slide.png" alt="bg" width={800} height={800} />
         </div>
       </div>
 
-      <div className="bg-bg py-[40px]">
-        <div className="max-w-[1500px] mx-auto flex justify-between items-center">
-          <div className="flex gap-[10px] justify-start items-center">
+      <div className="bg-bg py-[40px] px-[30px] 2xl:px-[0px]">
+        <div className="max-w-[1500px] mx-auto 2xl:flex 2xl:justify-between 2xl:items-center">
+          <div className="2xl:flex gap-[10px] 2xl:justify-start 2xl:items-center pb-[20px]">
             <Image src="/assets/Logo.png" alt="bg" width={35} height={35} />
             <h1 className="font-bold text-[30px] leading-[50px]">
               ZedCar Connect
             </h1>
           </div>
-          <div className="flex gap-[30px]">
+          <div className="2xl:flex gap-[30px] pb-[20px] 2xl:pb-[0px]">
             <p className="text-[18px]">
               © ZedCar Connect 2023, All Rights Reserved
             </p>
@@ -250,19 +250,21 @@ export default function Home() {
               <p className="text-[18px] underline">Privacy Policy</p>
             </a>
           </div>
-          <div className="flex gap-[10px]">
-            <a
-              href="https://web.facebook.com/profile.php?id=100093953793493"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/assets/facebook.png"
-                alt="bg"
-                width={35}
-                height={35}
-              />
-            </a>
+          <div className="2xl:flex gap-[10px]">
+            <div className="pb-[20px] 2xl:pb-[0]">
+              <a
+                href="https://web.facebook.com/profile.php?id=100093953793493"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/assets/facebook.png"
+                  alt="bg"
+                  width={35}
+                  height={35}
+                />
+              </a>
+            </div>
 
             <a
               href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
