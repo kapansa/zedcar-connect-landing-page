@@ -25,19 +25,26 @@ export default function Home() {
             seamlessly navigate the world of automobiles and make the perfect
             connection.
           </p>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/assets/google.png"
-              alt="bg"
-              width={130}
-              height={50}
-              className="pt-[5px]"
-            />
-          </a>
+          <div className="flex gap-[30px] justify-start items-center">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/assets/google.png"
+                alt="bg"
+                width={130}
+                height={50}
+                className="pt-[5px]"
+              />
+            </a>
+            <a href="/assets/zedcarconnect.apk" download>
+              <button className="bg-red text-white py-[10px] px-[20px] border-l-[5px] rounded">
+                Download The App Today
+              </button>
+            </a>
+          </div>
         </div>
         <div className=" max-w-[1200px]">
           <Image src="/assets/1.png" alt="bg" width={550} height={550} />
@@ -223,7 +230,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-footer py-[40px]">
+      <div className="bg-bg py-[40px]">
         <div className="max-w-[1500px] mx-auto flex justify-between items-center">
           <div className="flex gap-[10px] justify-start items-center">
             <Image src="/assets/Logo.png" alt="bg" width={35} height={35} />
@@ -231,14 +238,21 @@ export default function Home() {
               ZedCar Connect
             </h1>
           </div>
-          <div>
+          <div className="flex gap-[30px]">
             <p className="text-[18px]">
               © ZedCar Connect 2023, All Rights Reserved
             </p>
+            <a
+              href="https://docs.google.com/document/d/1QJqyYzPG-D20lWBxa1h2Eg6JcwFe4K-LsLvy0-kf7ZY/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="text-[18px] underline">Privacy Policy</p>
+            </a>
           </div>
           <div className="flex gap-[10px]">
             <a
-              href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+              href="https://web.facebook.com/profile.php?id=100093953793493"
               target="_blank"
               rel="noopener noreferrer"
             >
