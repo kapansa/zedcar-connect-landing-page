@@ -40,7 +40,7 @@ export default function Home() {
               />
             </a>
             <a href="/assets/zedcarconnect.apk" download>
-              <button className="bg-red text-white py-[10px] px-[20px] border-l-[5px] rounded">
+              <button className="bg-red text-white py-[10px] px-[20px] border-l-[5px] rounded font-bold">
                 Download The App Today
               </button>
             </a>
