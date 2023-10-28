@@ -53,9 +53,9 @@ export default function Home() {
 
       <div className="max-w-[1200px] mx-auto py-[200px] px-[50px]">
         <div className="flex justify-center items-center flex-col text-center">
-          <h1 className="font-bold text-[50px] leading-[70px]">
+          <h2 className="font-bold text-[50px] leading-[70px]">
             Explore Our App Features
-          </h1>
+          </h2>
           <p className="text-[18px] py-[15px]">
             Discover a world of features at your fingertips. From comprehensive
             car listings and seamless messaging to detailed user profiles,
@@ -67,9 +67,9 @@ export default function Home() {
       {/* image on the right */}
       <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-bg">
         <div className="basis-[48%] max-w-[1200px]">
-          <h1 className="font-bold text-[50px] leading-[50px]">
+          <h2 className="font-bold text-[50px] leading-[50px]">
             Simplified Process
-          </h1>
+          </h2>
           <p className="text-[18px] py-[15px]">
             Our three-step process makes car buying and selling a breeze. Search
             for your dream car, list your vehicle hassle-free, and connect with
@@ -95,9 +95,9 @@ export default function Home() {
           <Image src="/assets/13.png" alt="bg" width={550} height={550} />
         </div>
         <div className="basis-[48%] max-w-[1200px] order-1 2xl:order-2">
-          <h1 className="font-bold text-[50px] leading-[50px]">
+          <h2 className="font-bold text-[50px] leading-[50px]">
             Quick and Easy Sign-Up
-          </h1>
+          </h2>
           <p className="text-[18px] py-[15px]">
             Getting started with ZedCar Connect is a breeze. We&apos;ve designed
             a hassle-free sign-up process to help you join our community within
@@ -114,9 +114,9 @@ export default function Home() {
       {/* image on the right */}
       <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-bg">
         <div className="basis-[48%] max-w-[1200px] pb-[50px] 2xl:pb-[0px]">
-          <h1 className="font-bold text-[50px] leading-[50px]">
+          <h2 className="font-bold text-[50px] leading-[50px]">
             Intuitive and User-Friendly
-          </h1>
+          </h2>
           <p className="text-[18px] py-[15px]">
             Our app is designed with you in mind. Experience a smooth and
             intuitive interface that makes your car buying and selling journey a
@@ -139,9 +139,9 @@ export default function Home() {
           <Image src="/assets/15.png" alt="bg" width={550} height={550} />
         </div>
         <div className="basis-[48%] max-w-[1200px] order-1 2xl:order-2 pb-[30px] 2xl:pb-[0px]">
-          <h1 className="font-bold text-[50px] leading-[50px]">
+          <h2 className="font-bold text-[50px] leading-[50px]">
             Effortless Account Management
-          </h1>
+          </h2>
           <p className="text-[18px] py-[15px]">
             Managing your account has never been easier. ZedCar Connect offers
             you all the tools you need to take control of your user profile.
@@ -157,9 +157,9 @@ export default function Home() {
       <div className="bg-bg px-[30px]">
         <div className="max-w-[1200px] mx-auto py-[200px]">
           <div className="flex justify-center items-center flex-col text-center">
-            <h1 className="font-bold text-[50px] leading-[70px]">
+            <h2 className="font-bold text-[50px] leading-[70px]">
               Get Started Today!
-            </h1>
+            </h2>
             <p className="text-[18px] py-[15px]">
               Ready to explore the world of cars? Download the ZedCar Connect
               app from play store, and start your journey today.
@@ -184,9 +184,9 @@ export default function Home() {
       {/* image on the right */}
       <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-primary relative overflow-hidden">
         <div className="basis-[48%] max-w-[1200px]">
-          <h1 className="font-bold text-[50px] leading-[50px] text-red">
+          <h2 className="font-bold text-[50px] leading-[50px] text-red">
             Discover the Power of ZedCar Connect
-          </h1>
+          </h2>
           <div className="my-[20px]">
             <p className="text-[18px] py-[15px] text-white">
               ZedCar Connect offers a wealth of features tailored to enhance
@@ -234,9 +234,9 @@ export default function Home() {
         <div className="max-w-[1500px] mx-auto 2xl:flex 2xl:justify-between 2xl:items-center">
           <div className="2xl:flex gap-[10px] 2xl:justify-start 2xl:items-center lg:pb-[0] pb-[20px]">
             <Image src="/assets/Logo.png" alt="bg" width={28} height={28} />
-            <h1 className="font-bold text-[25px] leading-[50px]">
+            <h2 className="font-bold text-[25px] leading-[50px]">
               ZedCar Connect
-            </h1>
+            </h2>
           </div>
           <div className="2xl:flex gap-[30px] pb-[20px] 2xl:pb-[0px]">
             <p className="text-[16px]">
