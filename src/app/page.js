@@ -16,7 +16,7 @@ export default function Home() {
         }}
       >
         <div className="2xl:basis-[48%] max-w-[1200px]">
-          <h1 className="text-white font-bold text-[70px] leading-[70px]">
+          <h1 className="text-white font-bold xl:text-[70px] text-[50px] leading-[50px] xl:leading-[70px]">
             ZedCar Connect: A Car Market Place
           </h1>
           <p className="text-[18px] text-white py-[15px]">
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* image on the right */}
-      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-bg">
         <div className="basis-[48%] max-w-[1200px]">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Simplified Process
@@ -90,11 +90,11 @@ export default function Home() {
       </div>
 
       {/* image on the left */}
-      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
-        <div className=" max-w-[1200px]">
+      <div className="flex flex-col 2xl:flex-row 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
+        <div className="max-w-[1200px] order-2 2xl:order-1">
           <Image src="/assets/13.png" alt="bg" width={550} height={550} />
         </div>
-        <div className="basis-[48%] max-w-[1200px]">
+        <div className="basis-[48%] max-w-[1200px] order-1 2xl:order-2">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Quick and Easy Sign-Up
           </h1>
@@ -112,8 +112,8 @@ export default function Home() {
       </div>
 
       {/* image on the right */}
-      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
-        <div className="basis-[48%] max-w-[1200px]">
+      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px] bg-bg">
+        <div className="basis-[48%] max-w-[1200px] pb-[50px] 2xl:pb-[0px]">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Intuitive and User-Friendly
           </h1>
@@ -134,11 +134,11 @@ export default function Home() {
       </div>
 
       {/* image on the left */}
-      <div className="2xl:flex 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
-        <div className=" max-w-[1200px]">
+      <div className="flex flex-col 2xl:flex-row 2xl:px-[200px] px-[50px] justify-between items-center py-[100px]">
+        <div className=" max-w-[1200px] order-2 2xl:order-1">
           <Image src="/assets/15.png" alt="bg" width={550} height={550} />
         </div>
-        <div className="basis-[48%] max-w-[1200px]">
+        <div className="basis-[48%] max-w-[1200px] order-1 2xl:order-2 pb-[30px] 2xl:pb-[0px]">
           <h1 className="font-bold text-[50px] leading-[50px]">
             Effortless Account Management
           </h1>
@@ -230,16 +230,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-bg py-[40px] px-[30px] 2xl:px-[0px]">
+      <div className="bg-bg py-[20px] px-[30px] 2xl:px-[0px]">
         <div className="max-w-[1500px] mx-auto 2xl:flex 2xl:justify-between 2xl:items-center">
-          <div className="2xl:flex gap-[10px] 2xl:justify-start 2xl:items-center pb-[20px]">
-            <Image src="/assets/Logo.png" alt="bg" width={35} height={35} />
-            <h1 className="font-bold text-[30px] leading-[50px]">
+          <div className="2xl:flex gap-[10px] 2xl:justify-start 2xl:items-center lg:pb-[0] pb-[20px]">
+            <Image src="/assets/Logo.png" alt="bg" width={28} height={28} />
+            <h1 className="font-bold text-[25px] leading-[50px]">
               ZedCar Connect
             </h1>
           </div>
           <div className="2xl:flex gap-[30px] pb-[20px] 2xl:pb-[0px]">
-            <p className="text-[18px]">
+            <p className="text-[16px]">
               © ZedCar Connect 2023, All Rights Reserved
             </p>
             <a
@@ -247,7 +247,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="text-[18px] underline">Privacy Policy</p>
+              <p className="text-[16px] underline">Privacy Policy</p>
             </a>
           </div>
           <div className="2xl:flex gap-[10px]">
@@ -260,8 +260,8 @@ export default function Home() {
                 <Image
                   src="/assets/facebook.png"
                   alt="bg"
-                  width={35}
-                  height={35}
+                  width={30}
+                  height={30}
                 />
               </a>
             </div>
@@ -274,8 +274,8 @@ export default function Home() {
               <Image
                 src="/assets/google.png"
                 alt="bg"
-                width={120}
-                height={120}
+                width={100}
+                height={100}
               />
             </a>
           </div>
