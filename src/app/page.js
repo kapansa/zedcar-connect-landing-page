@@ -26,7 +26,7 @@ export default function Home() {
           </p>
           <div className="flex gap-[30px] justify-start items-center">
             <a
-              href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+              href="https://play.google.com/store/apps/details?id=com.sammy.zedcarconnect"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -38,11 +38,11 @@ export default function Home() {
                 className="pt-[5px]"
               />
             </a>
-            <a href="/assets/zedcarconnect.apk" download>
+            {/* <a href="/assets/zedcarconnect.apk" download>
               <button className="bg-red text-white py-[10px] px-[20px] border-l-[5px] rounded font-bold">
                 Download The App Today
               </button>
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="max-w-[1200px] mt-[20px] 2xl:mt-[0px]">
@@ -164,7 +164,7 @@ export default function Home() {
               app from play store, and start your journey today.
             </p>
             <a
-              href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+              href="https://play.google.com/store/apps/details?id=com.sammy.zedcarconnect"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -215,7 +215,7 @@ export default function Home() {
             </ul>
           </div>
           <a
-            href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+            href="https://play.google.com/store/apps/details?id=com.sammy.zedcarconnect"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -266,7 +266,7 @@ export default function Home() {
             </div>
 
             <a
-              href="https://play.google.com/store/apps/details?id=com.zedcar_connect"
+              href="https://play.google.com/store/apps/details?id=com.sammy.zedcarconnect"
               target="_blank"
               rel="noopener noreferrer"
             >
